@@ -7,6 +7,7 @@ printf " My sample program started \n"
 printf " total arguments $# \n"
 
 gitdir=true;
+gitrepo="/home/bps/git/mgit-shell-project/.git"
 
 addEmptyClient() {
 mkdir src/main/java/com/mobolt/clients/$1
